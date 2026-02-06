@@ -24,8 +24,17 @@ print('==================')
 players = {
     "Name" : "Messi",
     "Age" : 40,
-    "Teams" :["PSG", "Barcelona","Argentina"]
+    "Teams" :["PSG", "Barcelona","Argentina"],
+    "More" :{
+        "children" : 3,
+        "residence": "US",
+        "phone" :(254777542 , 254333453, 25476531)
+    }
+
+
 }
+
+print( "The second number of messi",players["More"]["phone"][1])
 
 #print Barcelona
 print(players["Teams"][1])
